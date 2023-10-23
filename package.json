@@ -10,10 +10,11 @@
     "nodemon": "^3.0.1"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "",
     "dev": "node server.js"
   },
   "dependencies": {
-    "fastify": "^4.24.3"
+    "fastify": "^4.24.3",
+    "fastify-static": "^4.7.0"
   }
 }
